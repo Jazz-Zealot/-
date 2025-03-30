@@ -1,59 +1,54 @@
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #e6f7ff, #ffffff);
-  color: #222;
+  font-family: sans-serif;
   text-align: center;
-  padding: 20px;
+  background: #eefbff;
+  padding: 2rem;
 }
-#scoreboard, #timer, #levelBar {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-}
-#controls button {
-  margin: 0.5em;
-  padding: 0.7em 1.2em;
-  font-size: 1em;
-  background: #007bff;
-  color: white;
+
+button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: white;
   cursor: pointer;
 }
-#controls button:hover {
-  background: #0056b3;
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
-blockquote {
-  background: #f5f5f5;
-  padding: 1em;
-  margin: 1em auto;
-  max-width: 700px;
-  border-left: 5px solid #ccc;
-  font-style: italic;
-}
+
 img {
-  max-width: 300px;
-  margin-top: 1em;
+  max-width: 100%;
 }
+
+#controls {
+  margin-top: 1rem;
+}
+
 #shop {
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
   background: #fff;
-  padding: 1em;
-  border: 2px solid #007bff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  z-index: 1000;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+  margin: 1rem auto;
 }
+
 .hidden {
   display: none;
 }
-.pet-icon {
+
+#petCorner {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 60px;
-  z-index: 99;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.pet-icon {
+  width: 80px;
+  height: auto;
 }
