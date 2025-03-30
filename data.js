@@ -1,40 +1,27 @@
 const sentences = [
   {
     id: 1,
-    sentence: "After six months of arguing and final 16 hours of hot parliamentary debates, Australia’s Northern Territory became the first legal authority in the world to allow doctors to take the lives of incurably ill patients who wish to die.",
+    sentence: "After six months of arguing and final 16 hours...",
     parts: [
       "After six months of arguing,",
       "and final 16 hours of hot parliamentary debates,",
-      "Australia’s Northern Territory became the first legal authority in the world,",
-      "to allow doctors to take the lives of incurably ill patients who wish to die."
+      "Australia’s Northern Territory became the first...",
+      "to allow doctors to take the lives of incurably ill..."
     ],
     audio: "audio/D1.mp3",
     image: "images/sentence1.png"
   },
   {
     id: 2,
-    sentence: "The casual friendliness of many Americans should be interpreted neither as superficial nor as artificial, but as the result of a historically developed cultural tradition.",
+    sentence: "The casual friendliness of many Americans...",
     parts: [
       "The casual friendliness of many Americans",
       "should be interpreted neither as superficial,",
       "nor as artificial,",
-      "but as the result of a historically developed cultural tradition."
+      "but as the result of a historically developed..."
     ],
     audio: "audio/D2.mp3",
     image: "images/sentence2.png"
-  },
-  {
-    id: 3,
-    sentence: "For example, when an American uses the word ‘friend’, the cultural implications of the word may be quite different from those it has in the visitor’s language and culture.",
-    parts: [
-      "For example,",
-      "when an American uses the word ‘friend’,",
-      "the cultural implications of the word may be quite different",
-      "from those it has in the visitor’s language and culture."
-    ],
-    audio: "audio/D3.mp3",
-    image: "images/sentence3.png"
   }
 ];
-
 export default sentences;

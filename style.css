@@ -1,54 +1,30 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
   background: #eefbff;
-  padding: 2rem;
+  padding: 20px;
 }
-
 button {
-  margin: 0.5rem;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
 }
-
-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+img.pet-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 80px;
 }
-
-img {
-  max-width: 100%;
-}
-
-#controls {
-  margin-top: 1rem;
-}
-
-#shop {
-  background: #fff;
-  border: 2px solid #ccc;
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 300px;
-  margin: 1rem auto;
-}
-
 .hidden {
   display: none;
 }
-
-#petCorner {
+#shop {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-}
-
-.pet-icon {
-  width: 80px;
-  height: auto;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
 }
